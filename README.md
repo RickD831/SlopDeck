@@ -1,6 +1,6 @@
 # SlopDeck
 
-![SlopDeck Logo](public/SlopDeckLogo.png)
+<img src="public/SlopDeckLogo.png" width="200" />
 
 A Stream Deck-style button launcher for Windows built with Electron + React + Vite. Assign URLs and applications to one-click buttons, arrange them in a grid, and launch anything instantly.
 
