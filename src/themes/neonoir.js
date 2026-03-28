@@ -1,0 +1,35 @@
+const neonoir = {
+  name: 'Neo-Noir',
+  variables: {
+    '--font-family': '"Segoe UI", system-ui, sans-serif',
+    '--bg-primary': '#0d0a1f',
+    '--bg-secondary': '#140f2d',
+    '--bg-panel': '#0d0a1f',
+    '--bg-button': 'rgba(255, 0, 110, 0.07)',
+    '--bg-button-hover': 'rgba(255, 0, 110, 0.18)',
+    '--bg-button-active': 'rgba(255, 0, 110, 0.04)',
+    '--bg-titlebar': 'rgba(8, 6, 20, 0.98)',
+    '--bg-modal': '#140f2d',
+    '--bg-input': 'rgba(255,255,255,0.06)',
+    '--text-primary': '#ffffff',
+    '--text-secondary': 'rgba(255,255,255,0.45)',
+    '--text-accent': '#ff006e',
+    '--accent': '#ff006e',
+    '--accent-hover': '#ff2d78',
+    '--border': 'rgba(255, 0, 110, 0.22)',
+    '--border-accent': '#ff006e',
+    '--radius': '6px',
+    '--radius-lg': '10px',
+    '--shadow': '0 4px 24px rgba(255, 0, 110, 0.25)',
+    '--shadow-button': '0 0 14px rgba(255, 0, 110, 0.5), 0 0 28px rgba(0, 212, 255, 0.15)',
+    '--transition': '0.12s ease',
+    '--backdrop-filter': 'blur(12px)',
+    '--titlebar-height': '32px',
+    '--button-scale-hover': 'scale(1.05)',
+    '--scanlines': 'none',
+    '--bezel-border': 'none',
+    '--bezel-bg': 'transparent',
+  }
+}
+
+export default neonoir

@@ -1,0 +1,35 @@
+const windows11 = {
+  name: 'Windows 11',
+  variables: {
+    '--font-family': '"Segoe UI", "Segoe UI Variable", system-ui, sans-serif',
+    '--bg-primary': '#202020',
+    '--bg-secondary': '#2d2d2d',
+    '--bg-panel': 'rgba(32, 32, 32, 0.85)',
+    '--bg-button': 'rgba(255, 255, 255, 0.06)',
+    '--bg-button-hover': 'rgba(255, 255, 255, 0.10)',
+    '--bg-button-active': 'rgba(255, 255, 255, 0.04)',
+    '--bg-titlebar': 'rgba(28, 28, 28, 0.95)',
+    '--bg-modal': '#2d2d2d',
+    '--bg-input': 'rgba(255,255,255,0.07)',
+    '--text-primary': '#ffffff',
+    '--text-secondary': 'rgba(255,255,255,0.6)',
+    '--text-accent': '#0078d4',
+    '--accent': '#0078d4',
+    '--accent-hover': '#106ebe',
+    '--border': 'rgba(255,255,255,0.1)',
+    '--border-accent': '#0078d4',
+    '--radius': '8px',
+    '--radius-lg': '12px',
+    '--shadow': '0 4px 16px rgba(0,0,0,0.4)',
+    '--shadow-button': '0 2px 8px rgba(0,0,0,0.3)',
+    '--transition': '0.15s ease',
+    '--backdrop-filter': 'blur(20px) saturate(180%)',
+    '--titlebar-height': '32px',
+    '--button-scale-hover': 'scale(1.04)',
+    '--scanlines': 'none',
+    '--bezel-border': 'none',
+    '--bezel-bg': 'transparent',
+  }
+}
+
+export default windows11

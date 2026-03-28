@@ -1,0 +1,35 @@
+const atari2600 = {
+  name: 'Atari 2600',
+  variables: {
+    '--font-family': '"Press Start 2P", monospace',
+    '--bg-primary': '#3d1f00',
+    '--bg-secondary': '#2a1500',
+    '--bg-panel': '#3d1f00',
+    '--bg-button': '#5c2e00',
+    '--bg-button-hover': '#7a3d00',
+    '--bg-button-active': '#3d1f00',
+    '--bg-titlebar': '#2a1500',
+    '--bg-modal': '#3d1f00',
+    '--bg-input': '#2a1500',
+    '--text-primary': '#ffcc00',
+    '--text-secondary': '#ff6600',
+    '--text-accent': '#ff6600',
+    '--accent': '#ff6600',
+    '--accent-hover': '#ffcc00',
+    '--border': '#8b4513',
+    '--border-accent': '#ff6600',
+    '--radius': '2px',
+    '--radius-lg': '2px',
+    '--shadow': '0 4px 16px rgba(0,0,0,0.8)',
+    '--shadow-button': 'inset 0 2px 4px rgba(0,0,0,0.5), inset 0 -2px 4px rgba(255,102,0,0.2)',
+    '--transition': '0.05s linear',
+    '--backdrop-filter': 'none',
+    '--titlebar-height': '36px',
+    '--button-scale-hover': 'scale(1.0)',
+    '--scanlines': 'repeating-linear-gradient(0deg, rgba(0,0,0,0) 0px, rgba(0,0,0,0) 2px, rgba(0,0,0,0.15) 2px, rgba(0,0,0,0.15) 4px)',
+    '--bezel-border': '8px solid #5c3d1a',
+    '--bezel-bg': '#2a1500',
+  }
+}
+
+export default atari2600
