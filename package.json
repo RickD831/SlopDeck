@@ -23,7 +23,7 @@
     ],
     "win": {
       "target": "nsis",
-      "icon": "public/slopdeck_icon.ico"
+      "icon": "public/slopdeck_s_icon_256.ico"
     },
     "nsis": {
       "oneClick": false,

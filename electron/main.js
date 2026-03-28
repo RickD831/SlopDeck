@@ -74,8 +74,8 @@ function makeIconPNG() {
 
 function getTrayImage() {
   const iconPath = isDev
-    ? path.join(__dirname, '../public/slopdeck_icon_16.png')
-    : path.join(__dirname, '../dist/slopdeck_icon_16.png')
+    ? path.join(__dirname, '../public/slopdeck_s_icon_256.png')
+    : path.join(__dirname, '../dist/slopdeck_s_icon_256.png')
   if (fs.existsSync(iconPath)) return nativeImage.createFromPath(iconPath)
   return nativeImage.createFromBuffer(makeIconPNG())
 }
@@ -190,8 +190,8 @@ function getButtonsFilePath() {
 
 function createWindow() {
   const winIcon = isDev
-    ? path.join(__dirname, '../public/slopdeck_icon_256.png')
-    : path.join(__dirname, '../dist/slopdeck_icon_256.png')
+    ? path.join(__dirname, '../public/slopdeck_s_icon_256.png')
+    : path.join(__dirname, '../dist/slopdeck_s_icon_256.png')
 
   mainWindow = new BrowserWindow({
     width:        820,

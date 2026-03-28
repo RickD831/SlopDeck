@@ -1,5 +1,7 @@
 # SlopDeck
 
+![SlopDeck Logo](public/SlopDeckLogo.png)
+
 A Stream Deck-style button launcher for Windows built with Electron + React + Vite. Assign URLs and applications to one-click buttons, arrange them in a grid, and launch anything instantly.
 
 ---
@@ -47,10 +49,9 @@ SlopDeck/
 │   ├── main.js          # BrowserWindow, tray, IPC handlers, docking logic, editor window
 │   └── preload.js       # contextBridge API surface
 ├── public/
-│   ├── slopdeck_icon.ico      # App / installer icon (all sizes)
-│   ├── slopdeck_icon_16.png   # Tray icon
-│   ├── slopdeck_icon_64.png   # Mid-res icon
-│   └── slopdeck_icon_256.png  # BrowserWindow icon
+│   ├── SlopDeckLogo.png           # Logo (used in README)
+│   ├── slopdeck_s_icon_256.ico    # App / installer icon
+│   └── slopdeck_s_icon_256.png    # Tray icon + BrowserWindow icon
 ├── src/
 │   ├── main.jsx         # React entry — routes to App, EditorApp, or SettingsApp based on URL hash
 │   ├── index.css        # Global reset
@@ -184,8 +185,7 @@ Place icon files in `public/` before building:
 
 | File | Used for |
 |---|---|
-| `slopdeck_icon.ico` | NSIS installer + `.exe` file icon |
-| `slopdeck_icon_16.png` | System tray |
-| `slopdeck_icon_256.png` | BrowserWindow (alt-tab, taskbar preview) |
+| `slopdeck_s_icon_256.ico` | NSIS installer + `.exe` file icon |
+| `slopdeck_s_icon_256.png` | System tray + BrowserWindow (alt-tab, taskbar preview) |
 
-If `slopdeck_icon_16.png` is not found at runtime, a programmatic fallback icon (blue 2×2 button grid, generated via zlib PNG in `main.js`) is used instead.
+If `slopdeck_s_icon_256.png` is not found at runtime, a programmatic fallback icon (blue 2×2 button grid, generated via zlib PNG in `main.js`) is used instead.
